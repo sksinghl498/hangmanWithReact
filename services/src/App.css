@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+  display: flex;
+  margin: 2.3rem 19rem;
+  overflow: auto;
+  /* border: 2px solid black; */
+  height: 44rem;
+  width: 60rem;
+  flex-wrap: wrap;
+  background-color: rgb(230, 242, 255);
+  border-radius: 6px;
+  box-shadow: 3px 3px 4px 4px rgb(102, 140, 255);
+}
+
+.card{
+  margin: 2rem 2rem;
+  height: 17rem;
+  width: 15rem;
+  /* border: 2px solid black; */
+  border-radius: 5px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px rgb(230, 230, 230);
+}
+.card img{
+  margin: 1rem 0px;
+  width: 5rem;
+}
+
+.container h1{
+  text-align: center;
+  margin: 3rem 0px;
+}
+
+.para{
+  margin: 7px 10px;
+}
